@@ -6,7 +6,7 @@ Command line:
 - in: address inside the tunnel, local or remote address.
 - out: target port outside the tunnel, will use command line IO if not defined.
 - covert: which type of covert channel to use, none as default.
-- proxy: use socks5 proxy, set to false as default.
+- proxy: use socks5(?) proxy, set to false by default.
 ```shellscript
 C0 --in TunnelAddr [--out TargetAddr] [--covert http/https/icmp/dns] [--proxy false/true]
 C0 -i TunnelAddr [-o TargetAddr] [-c http/https/icmp/dns] [-p false/true]
